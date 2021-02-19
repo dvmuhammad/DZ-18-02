@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -64,7 +64,16 @@ namespace Matrix
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
                         Console.WriteLine("{0}", Convert.ToChar(rnd.Next(100, 126)));
                     }
-
+                    else if (currentY <= 2)
+                    {
+                        Console.SetCursorPosition(pozX, currentY - 4 + Console.WindowHeight);
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("{0}", Convert.ToChar(rnd.Next(100, 126)));
+ 
+                        Console.SetCursorPosition(pozX, currentY - 5 + Console.WindowHeight);
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.WriteLine("{0}", Convert.ToChar(rnd.Next(100, 126)));
+                    }
  
                     if (i == stringLength - 1)
                     {
@@ -86,5 +95,4 @@ namespace Matrix
             }
         }
     }
-
 }
