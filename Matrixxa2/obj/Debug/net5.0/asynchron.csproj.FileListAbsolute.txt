@@ -1,0 +1,16 @@
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.csprojAssemblyReference.cache
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.AssemblyInfoInputs.cache
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.AssemblyInfo.cs
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.csproj.CoreCompileInputs.cache
+C:\Users\Мухаммад\Documents\Projects\asynchron\bin\Debug\net5.0\asynchron.exe
+C:\Users\Мухаммад\Documents\Projects\asynchron\bin\Debug\net5.0\asynchron.deps.json
+C:\Users\Мухаммад\Documents\Projects\asynchron\bin\Debug\net5.0\asynchron.runtimeconfig.json
+C:\Users\Мухаммад\Documents\Projects\asynchron\bin\Debug\net5.0\asynchron.runtimeconfig.dev.json
+C:\Users\Мухаммад\Documents\Projects\asynchron\bin\Debug\net5.0\asynchron.dll
+C:\Users\Мухаммад\Documents\Projects\asynchron\bin\Debug\net5.0\ref\asynchron.dll
+C:\Users\Мухаммад\Documents\Projects\asynchron\bin\Debug\net5.0\asynchron.pdb
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.dll
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\ref\asynchron.dll
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.pdb
+C:\Users\Мухаммад\Documents\Projects\asynchron\obj\Debug\net5.0\asynchron.genruntimeconfig.cache
