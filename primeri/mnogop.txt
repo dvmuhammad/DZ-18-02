@@ -1,0 +1,33 @@
+Примеры Многопоточность:
+Вам нужно выкопать во дворе бассейн.
+Вы пригласили друга Bob и копаете вместе, 
+периодически задевая друг-друга лопатами. 
+Это многопоточная работа.
+
+Пример код:
+
+static void Main(string[] args)
+    {
+        
+        Thread myThread = new Thread(new ThreadStart(Count));
+        myThread.Start(); 
+
+        for (int i = 1; i < 9; i++)
+        {
+            Console.WriteLine("Главный поток:");
+            Console.WriteLine(i * i);
+            Thread.Sleep(300);
+        }
+
+        Console.ReadLine();
+    }
+
+    public static void Count()
+    {
+        for (int i = 1; i < 9; i++)
+        {
+            Console.WriteLine("Второй поток:");
+            Console.WriteLine(i * i);
+            Thread.Sleep(400);
+        }
+    }

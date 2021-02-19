@@ -1,0 +1,26 @@
+Примеры Параллельное:
+
+Параллельное-разбиение одной задачи на независимые
+подзадачи и выполнение этих подзадач одновременно 
+разными потоками. Пример: вычисление среднего 
+значения двумерного массива. Каждый поток может посчитать
+сумму своей строки, а потом все это объединить.
+На компьютере с одним процессором параллельное программирование - невозможно
+
+пример код:
+static void Main(string[] args)
+        {
+            Task task = new Task(Hidle);
+            task.Start();
+			
+            Console.WriteLine("finished Main");
+
+            Console.ReadLine();
+        }
+
+        static void Hidle()
+        {
+            Console.WriteLine("started Display");
+
+            Console.WriteLine("finished Display");
+        }

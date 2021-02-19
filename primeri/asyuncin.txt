@@ -1,0 +1,38 @@
+Примеры Асинхронное:
+Асинхроное это когда мы ставим какую-то задачу, 
+но не ждем ответа, а продолжаем делать свою работу.
+
+например: попросить секретаря сварить кофе. Мы не ждем 
+этого кофе и занимаемся своими делами, а когда кофе 
+будет готов - нам его принесут.
+
+пример код:
+
+static async Task <int> MyTask()
+        {
+            await Task.Yield();
+            Console.WriteLine("My task started");
+            for (var i = 0; i < 10; i++)
+            {
+                Thread.Sleep(100);
+                Console.WriteLine(i);
+                
+            }
+            Console.WriteLine("My task finished");
+            return 1;
+            
+        }
+
+        static async Task Start()
+        {
+            await MyTask();
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Main started");
+            Start();
+            Thread.Sleep(500);
+            Console.WriteLine("Main finished");
+            
+        }
